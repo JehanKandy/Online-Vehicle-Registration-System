@@ -41,3 +41,9 @@
     </div>
     <!-- Grid System End -->
 </div>
+
+<div class="contact">
+    <div class="contact-concontent">
+        Find Us..!
+    </div>
+</div>
