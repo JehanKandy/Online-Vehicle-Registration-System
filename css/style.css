@@ -62,10 +62,8 @@
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
+    padding-bottom: 50px;
 }
-
-
-/* CSS Gird System for gallery*/
 
 .gallery .grid {
     display: grid;
@@ -95,7 +93,7 @@
     grid-area: b;
     border: none;
     border-radius: 15px;
-    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car2.jpg);
     background-size: cover;
     background-position: center;
     font-size: 25px;
@@ -109,7 +107,7 @@
     grid-area: c;
     border: none;
     border-radius: 15px;
-    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car3.jpg);
     background-size: cover;
     background-position: center;
     font-size: 25px;
@@ -123,7 +121,7 @@
     grid-area: d;
     border: none;
     border-radius: 15px;
-    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car4.jpg);
     background-size: cover;
     background-position: center;
     font-size: 25px;
@@ -137,7 +135,7 @@
     grid-area: e;
     border: none;
     border-radius: 15px;
-    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car5.jpg);
     background-size: cover;
     background-position: center;
     font-size: 25px;
@@ -151,7 +149,7 @@
     grid-area: f;
     border: none;
     border-radius: 15px;
-    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car6.jpg);
     background-size: cover;
     background-position: center;
     font-size: 25px;
@@ -165,7 +163,7 @@
     grid-area: g;
     border: none;
     border-radius: 15px;
-    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car7.jpg);
     background-size: cover;
     background-position: center;
     font-size: 25px;
@@ -179,7 +177,7 @@
     grid-area: h;
     border: none;
     border-radius: 15px;
-    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car8.jpg);
     background-size: cover;
     background-position: center;
     font-size: 25px;
@@ -189,5 +187,23 @@
     text-align: center;
 }
 
+.contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(245, 245, 245);
+}
 
-/*************** Grid End **********************/
+.contact-content {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.contact-body {
+    padding-left: 630px;
+}
