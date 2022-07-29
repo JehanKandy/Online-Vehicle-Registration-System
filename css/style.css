@@ -304,13 +304,34 @@ font-family: 'Teko', sans-serif;
 }
 
 .login {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
 }
-.login-box{
-    
+
+.login-box {
+    width: 500px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.login-content .title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.login-content .body .login-data {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.login-content .body .login-input {
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgb(165, 164, 164);
 }
 
 
