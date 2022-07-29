@@ -10,6 +10,10 @@
                 <i class="fas fa-user-alt"></i>&nbsp;Login
                 <hr>
             </div>
+            <?php 
+                include("../function/function.php");
+            
+            ?>
             <div class="body">
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                     <div class="login-data">
