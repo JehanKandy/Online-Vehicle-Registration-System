@@ -14,11 +14,11 @@
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                     <div class="login-data">
                         <label for="username">Username : </label><br>
-                        <input type="text" name="username" id="username" class="login-input">
+                        <input type="text" name="username" id="username" class="login-input" placeholder="Username" required>
                     </div>
                     <div class="login-data">
                         <label for="password">Password : </label><br>
-                        <input type="password" name="password" id="password" class="login-input">        
+                        <input type="password" name="password" id="password" class="login-input" placeholder="Password" required>        
                     </div>
                     <div class="login-data">
                         <input type="submit" value="Login" name="login" class="login-submit">
