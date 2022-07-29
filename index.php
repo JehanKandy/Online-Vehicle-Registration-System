@@ -69,3 +69,7 @@
         <div class="partner-item6"></div>
     </div>
 </div>
+
+<!-- footer -->
+
+<?php include("lib/layouts/footer.php"); ?>
