@@ -63,3 +63,75 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+
+
+/* CSS Gird System for gallery*/
+
+.gallery .grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(350px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c d" "e f g h";
+}
+
+.gallery-item1 {
+    grid-area: a;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+}
+
+.gallery-item2 {
+    grid-area: b;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+}
+
+.gallery-item3 {
+    grid-area: c;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+}
+
+.gallery-item4 {
+    grid-area: d;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+}
+
+.gallery-item5 {
+    grid-area: e;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+}
+
+.gallery-item6 {
+    grid-area: f;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+}
+
+.gallery-item7 {
+    grid-area: g;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+}
+
+.gallery-item8 {
+    grid-area: h;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+}
+
+
+/*************** Grid End **********************/
