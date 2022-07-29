@@ -6,7 +6,7 @@
 <div class="login">
     <div class="login-content">
         <div class="title">
-            <i class="fas fa-user-alt"></i>
+            <i class="fas fa-user-alt"></i>&nbsp;Login
         </div>
     </div>
 </div>
