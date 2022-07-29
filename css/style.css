@@ -56,3 +56,10 @@
     padding-right: 100px;
 }
 
+.gallery-content {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
