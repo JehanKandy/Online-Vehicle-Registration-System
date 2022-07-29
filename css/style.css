@@ -410,8 +410,8 @@ for standard iPad screen size
         font-size: 40px;
     }
     .gallery {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 80px;
+        padding-bottom: 80px;
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -419,9 +419,27 @@ for standard iPad screen size
         display: grid;
         width: 100%;
         height: auto;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: minmax(350px, auto);
         grid-gap: 1rem;
-        grid-template-areas: "a b" "c d" "e f" "g h";
+        grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h";
+    }
+    .contact-body {
+        padding-left: 25px;
+    }
+    .partners {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .partners .grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b" "c d" "e f";
     }
 }
