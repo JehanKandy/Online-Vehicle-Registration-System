@@ -14,29 +14,29 @@
     <!-- Grid System -->
     <div class="grid">
         <div class="gallery-item1">
-            Hello
+            Vehicle Registration <br>2021
         </div>
         <div class="gallery-item2">
-            Hello
+            Vehicle Registration <br>2020
         </div>
         <div class="gallery-item3">
-            Hello
+            Vehicle Registration <br>2019
         </div>
         <div class="gallery-item4">
-            Hello
+            Vehicle Registration <br>2018
         </div>
 
         <div class="gallery-item5">
-            Hello
+            Vehicle Registration <br>2017
         </div>
         <div class="gallery-item6">
-            Hello
+            Vehicle Registration <br>2016
         </div>
         <div class="gallery-item7">
-            Hello
+            Vehicle Registration <br>2015
         </div>
         <div class="gallery-item8">
-            Hello
+            Vehicle Registration <br>2014
         </div>
     </div>
     <!-- Grid System End -->
