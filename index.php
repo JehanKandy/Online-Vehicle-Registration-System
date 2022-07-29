@@ -55,3 +55,29 @@
         </div>
     </div>
 </div>
+
+<div class="partners">
+    <div class="partners-content">
+        Partnership
+    </div>
+    <div class="grid">
+        <div class="partner-item1">
+            HI
+        </div>
+        <div class="partner-item2">
+            HI
+        </div>
+        <div class="partner-item3">
+            HI
+        </div>
+        <div class="partner-item4">
+            HI
+        </div>
+        <div class="partner-item5">
+            HI
+        </div>
+        <div class="partner-item6">
+            HI
+        </div>
+    </div>
+</div>
