@@ -11,5 +11,33 @@
     <div class="gallery-content">
         Gallery
     </div>
-</div>
+    <!-- Grid System -->
+    <div class="grid">
+        <div class="gallery-item1">
+            Hello
+        </div>
+        <div class="gallery-item2">
+            Hello
+        </div>
+        <div class="gallery-item3">
+            Hello
+        </div>
+        <div class="gallery-item4">
+            Hello
+        </div>
 
+        <div class="gallery-item5">
+            Hello
+        </div>
+        <div class="gallery-item6">
+            Hello
+        </div>
+        <div class="gallery-item7">
+            Hello
+        </div>
+        <div class="gallery-item8">
+            Hello
+        </div>
+    </div>
+    <!-- Grid System End -->
+</div>
