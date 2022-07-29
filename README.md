@@ -11,14 +11,14 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
 # Style Sheet -> CSS
 
  This Style Sheet is completely responsive for following devices
-  - standard laptop screen width size.   (1366x768)
+  - <b>standard laptop screen</b> width size.   (1366x768)
 
 
-  - Ipad Size - landscape  (768x1024px)
-  - -  Ipad Size - portrait<br>
+  - <b>Ipad Size - landscape</b>  (768x1024px)
+  - -  </b>Ipad Size - portrait</b>
 
-  - Iphone X - portrait    (375x812)
-  - - Iphone X - landscape
+  - </b>Iphone X - portrait </b>   (375x812)
+  - - </b>Iphone X - landscape</b>
 
 
 
