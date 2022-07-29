@@ -303,6 +303,16 @@ font-family: 'Teko', sans-serif;
     background-position: center;
 }
 
+.login {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.login-box{
+    
+}
+
 
 /*laptop screen size*/
 
