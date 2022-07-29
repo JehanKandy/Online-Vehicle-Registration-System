@@ -349,10 +349,11 @@ font-family: 'Teko', sans-serif;
 .login-content .body .login-submit:hover {
     background: -webkit-linear-gradient(right, #9f01ea, #56d8e4);
     box-shadow: 0 2px 4px 0 rgba(87, 87, 87, 0.678), 0 3px 10px 0 rgba(56, 56, 56, 0.596);
+    cursor: pointer;
 }
 
 .login-content .body .reg-submit {
-    width: 100%;
+    width: 49%;
     height: 50px;
     background: -webkit-linear-gradient(right, #56d8e4, #9f01ea);
     transition: 0.5s;
@@ -362,8 +363,14 @@ font-family: 'Teko', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
 
+.login-content .body .reg-submit:hover {
+    background: -webkit-linear-gradient(right, #9f01ea, #56d8e4);
+    box-shadow: 0 2px 4px 0 rgba(87, 87, 87, 0.678), 0 3px 10px 0 rgba(56, 56, 56, 0.596);
+    cursor: pointer;
+}
+
 .login-content .body .reg-clear {
-    width: 100%;
+    width: 49%;
     height: 50px;
     background: -webkit-linear-gradient(right, #d6d6d6, #525252);
     transition: 0.5s;
@@ -371,6 +378,12 @@ font-family: 'Teko', sans-serif;
     border-radius: 5px;
     color: white;
     font-family: 'Rubik', sans-serif;
+}
+
+.login-content .body .reg-clear:hover {
+    background: -webkit-linear-gradient(right, #525252, #d6d6d6);
+    box-shadow: 0 2px 4px 0 rgba(87, 87, 87, 0.678), 0 3px 10px 0 rgba(56, 56, 56, 0.596);
+    cursor: pointer;
 }
 
 
