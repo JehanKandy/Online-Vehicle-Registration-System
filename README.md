@@ -17,4 +17,4 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
   Start the Project
   
   1. DEVELOP
-    - index.php
+  - index.php
