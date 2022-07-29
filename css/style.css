@@ -401,6 +401,12 @@ font-family: 'Teko', sans-serif;
         font-size: 60px;
         font-family: 'Rubik', sans-serif;
     }
+    .login {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 400px;
+        padding-right: 400px;
+    }
 }
 
 
@@ -453,6 +459,12 @@ for standard iPad screen size
     }
     .contact-body {
         padding-left: 230px;
+    }
+    .login {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 110px;
+        padding-right: 110px;
     }
 }
 
