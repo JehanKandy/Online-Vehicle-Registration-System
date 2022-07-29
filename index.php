@@ -43,7 +43,15 @@
 </div>
 
 <div class="contact">
-    <div class="contact-concontent">
+    <div class="contact-content">
         Find Us..!
+    </div>	
+    <div class="contact-body">
+        <div class="row">
+            <div class="col-auto"><i class="fab fa-facebook-square" style="font-size:40px;"></i></div>
+            <div class="col-auto"><i class="fab fa-whatsapp-square" style="font-size:40px;"></i></div>
+            <div class="col-auto"><i class="fab fa-linkedin" style="font-size:40px;"></i></div>
+            <div class="col-auto"><i class="fab fa-instagram" style="font-size:40px;"></i></div>
+        </div>
     </div>
 </div>
