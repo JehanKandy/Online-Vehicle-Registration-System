@@ -15,10 +15,10 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
 
 
   - <b>Ipad Size - landscape</b>  (768x1024px)
-  - -  </b>Ipad Size - portrait</b>
+  - -  <b>Ipad Size - portrait</b>
 
-  - </b>Iphone X - portrait </b>   (375x812)
-  - - </b>Iphone X - landscape</b>
+  - <b>Iphone X - portrait </b>   (375x812)
+  - - <b>Iphone X - landscape</b>
 
 
 
