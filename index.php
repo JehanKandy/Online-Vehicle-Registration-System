@@ -7,3 +7,8 @@
         <div class="title">Vehicle Registration System</div>
     </div>
 </div>
+<div class="gallery">
+    <div class="gallery-content">
+        Gallery
+    </div>
+</div>
