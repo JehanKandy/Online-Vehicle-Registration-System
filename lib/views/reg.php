@@ -14,19 +14,27 @@
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                     <div class="login-data">
                         <label for="username">Username : </label><br>
-                        <input type="text" name="username" id="username" class="login-input" required>
+                        <input type="text" name="username" id="username" class="login-input" placeholder="Username" required>
                     </div>
                     <div class="login-data">
                         <label for="Email">Email : </label><br>
-                        <input type="email" name="email" id="email" class="login-input" required>
+                        <input type="email" name="email" id="email" class="login-input" placeholder="Email" required>
+                    </div>
+                    <div class="login-data">
+                        <label for="gender">Select Gender : </label>
+                        <span><input type="radio" name="gender" id="gender" value="male">&nbsp;Male&nbsp;&nbsp;<input type="radio" name="gender" id="gender" value="female">&nbsp;Female</span>
                     </div>
                     <div class="login-data">
                         <label for="password">Password : </label><br>
-                        <input type="password" name="password" id="password" class="login-input" required>        
+                        <input type="password" name="password" id="password" class="login-input" placeholder="Password" required>        
                     </div>
                     <div class="login-data">
-                        <input type="submit" value="Login" name="login" class="login-submit">
-                        <input type="reset" value="Clear" class="login-clear">
+                        <label for="cpassword">Confirm Password : </label><br>
+                        <input type="cpassword" name="cpassword" id="cpassword" class="login-input" placeholder="Confirm Password" required>        
+                    </div>
+                    <div class="login-data">
+                        <span><input type="submit" value="Register" name="login" class="reg-submit">
+                        <input type="reset" value="Clear" class="reg-clear"></span>
                     </div>                    
                 </form>
             </div>
