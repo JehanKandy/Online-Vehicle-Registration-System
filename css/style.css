@@ -619,4 +619,10 @@ for standard iPad screen size
     .contact-body {
         padding-left: 190px;
     }
+    .login {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
 }
