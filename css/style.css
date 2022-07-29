@@ -229,9 +229,9 @@
     width: 100%;
     height: auto;
     grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: minmax(200px, auto);
+    grid-auto-rows: minmax(100px, auto);
     grid-gap: 1rem;
-    grid-template-areas: "a b c d" "e f g h";
+    grid-template-areas: "a b c d e f";
 }
 
 .partner-item1 {
@@ -244,46 +244,63 @@
 }
 
 .partner-item2 {
-    grid-area: a;
+    grid-area: b;
     border: none;
     border-radius: 15px;
-    background-image: url(../images/logo1.png);
+    background-image: url(../images/logo3.png);
     background-size: cover;
     background-position: center;
 }
 
 .partner-item3 {
-    grid-area: a;
+    grid-area: c;
     border: none;
     border-radius: 15px;
-    background-image: url(../images/logo1.png);
+    background-image: url(../images/logo4.png);
     background-size: cover;
     background-position: center;
 }
 
 .partner-item4 {
-    grid-area: a;
+    grid-area: d;
     border: none;
     border-radius: 15px;
-    background-image: url(../images/logo1.png);
+    background-image: url(../images/logo5.png);
     background-size: cover;
     background-position: center;
 }
 
 .partner-item5 {
-    grid-area: a;
+    grid-area: e;
     border: none;
     border-radius: 15px;
-    background-image: url(../images/logo1.png);
+    background-image: url(../images/logo6.png);
     background-size: cover;
     background-position: center;
 }
 
 .partner-item6 {
-    grid-area: a;
+    grid-area: f;
     border: none;
     border-radius: 15px;
-    background-image: url(../images/logo1.png);
+    background-image: url(../images/logo7.png);
     background-size: cover;
     background-position: center;
+}
+
+
+/*laptop screen size*/
+
+@media only screen and (max-width: 1400px) {
+    .contact-body {
+        padding-left: 470px;
+    }
+    .home-content {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 200px;
+        font-size: 60px;
+        font-family: 'Rubik', sans-serif;
+    }
 }
