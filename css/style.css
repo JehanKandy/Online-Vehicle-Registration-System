@@ -40,5 +40,11 @@
     text-transform: uppercase;
     text-align: center;
     padding-top: 250px;
+    font-size: 60px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.home-content .title {
+    font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 50px;
 }
