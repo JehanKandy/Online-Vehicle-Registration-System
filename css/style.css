@@ -456,5 +456,25 @@ for standard iPad screen size
 */
 
 @media screen and (min-width: 811px) and (max-width: 812px) {
-    
+    .home-content {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 40px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .home-content .title {
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 30px;
+    }
+    .gallery .grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(350px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b" "c d" "e f" "g h";
+    }
 }
