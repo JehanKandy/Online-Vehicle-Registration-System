@@ -449,8 +449,12 @@ for standard iPad screen size
     iPhone X - landscape
 
 for standard iPad screen size 
-        width : 812px
-        height : 375px
+        width : 375px
+        height : 812px
         landscape
        
 */
+
+@media screen and (min-width: 811px) and (max-width: 812px) {
+    
+}
