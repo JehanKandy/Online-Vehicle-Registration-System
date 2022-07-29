@@ -12,6 +12,22 @@ font-family: 'Rubik', sans-serif;
 font-family: 'Teko', sans-serif;
 */
 
+
+/*
+    This Style Sheet is completely responsive for following devices
+        1. standard laptop screen width size.
+        (1366x768)
+
+        2. Ipad Size - landscape
+        2.1.  Ipad Size - portrait
+        (768x1024px)
+
+        3 Iphone X - portrait
+        3.1 Iphone X - landscape
+        (375x812)
+
+*/
+
 .login-btn-nav {
     width: 100px;
     height: 45px;
@@ -476,5 +492,8 @@ for standard iPad screen size
         grid-auto-rows: minmax(350px, auto);
         grid-gap: 1rem;
         grid-template-areas: "a b" "c d" "e f" "g h";
+    }
+    .contact-body {
+        padding-left: 190px;
     }
 }
