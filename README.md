@@ -13,4 +13,4 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
 
 <br>
 
-1. 29 July 2022
+<b> 1. 29 July 2022 </b>
