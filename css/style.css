@@ -81,56 +81,112 @@
     grid-area: a;
     border: none;
     border-radius: 15px;
-    background-color: #dbdbdbc9;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .gallery-item2 {
     grid-area: b;
     border: none;
     border-radius: 15px;
-    background-color: #dbdbdbc9;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .gallery-item3 {
     grid-area: c;
     border: none;
     border-radius: 15px;
-    background-color: #dbdbdbc9;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .gallery-item4 {
     grid-area: d;
     border: none;
     border-radius: 15px;
-    background-color: #dbdbdbc9;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .gallery-item5 {
     grid-area: e;
     border: none;
     border-radius: 15px;
-    background-color: #dbdbdbc9;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .gallery-item6 {
     grid-area: f;
     border: none;
     border-radius: 15px;
-    background-color: #dbdbdbc9;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .gallery-item7 {
     grid-area: g;
     border: none;
     border-radius: 15px;
-    background-color: #dbdbdbc9;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .gallery-item8 {
     grid-area: h;
     border: none;
     border-radius: 15px;
-    background-color: #dbdbdbc9;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
 }
 
 
