@@ -13,4 +13,11 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
 
 <br>
 
-<b> 1. 29 July 2022 </b>
+<b>29 July 2022 </b>
+  - Start the Project
+  
+  1. DEVELOP
+  - index.php
+  - css
+  - - css/style.css
+  - 
