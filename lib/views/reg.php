@@ -30,7 +30,7 @@
                     </div>
                     <div class="login-data">
                         <label for="cpassword">Confirm Password : </label><br>
-                        <input type="cpassword" name="cpassword" id="cpassword" class="login-input" placeholder="Confirm Password" required>        
+                        <input type="password" name="cpassword" id="cpassword" class="login-input" placeholder="Confirm Password" required>        
                     </div>
                     <div class="login-data">
                         <span><input type="submit" value="Register" name="login" class="reg-submit">
