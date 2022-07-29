@@ -207,3 +207,83 @@
 .contact-body {
     padding-left: 630px;
 }
+
+.partners {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.partners-content {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.partners .grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c d" "e f g h";
+}
+
+.partner-item1 {
+    grid-area: a;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/logo1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.partner-item2 {
+    grid-area: a;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/logo1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.partner-item3 {
+    grid-area: a;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/logo1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.partner-item4 {
+    grid-area: a;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/logo1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.partner-item5 {
+    grid-area: a;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/logo1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.partner-item6 {
+    grid-area: a;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/logo1.png);
+    background-size: cover;
+    background-position: center;
+}
