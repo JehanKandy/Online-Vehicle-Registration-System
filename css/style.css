@@ -48,3 +48,11 @@
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 50px;
 }
+
+.gallery {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
