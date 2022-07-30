@@ -85,7 +85,7 @@
 				</div>
 				<div class="admin-item7">
 					<div class="admin-title">
-						<i class="fas fa-users"></i> &nbsp;  Deactive Vehicles<br>
+						<i class="fas fa-car-crash"></i> &nbsp;  Deactive Vehicles<br>
 					</div>
 					<hr style="border:1px solid white;">
 					<div class="admin-body">
