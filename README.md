@@ -65,3 +65,4 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
   
   2. UPDATE 
   - css/style.css
+  - js/script.js
