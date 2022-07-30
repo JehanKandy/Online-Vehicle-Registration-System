@@ -29,14 +29,78 @@
 		<hr>
 		<div class="admin-content">
 			<div class="grid">
-				<div class="admin-item1"></div>
-				<div class="admin-item2"></div>
-				<div class="admin-item3"></div>
-				<div class="admin-item4"></div>
-				<div class="admin-item5"></div>
-				<div class="admin-item6"></div>
-				<div class="admin-item7"></div>
-				<div class="admin-item8"></div>
+				<div class="admin-item1">
+					<div class="admin-title">
+						<i class="fas fa-users"></i> &nbsp;  Users<br>
+					</div>
+					<hr style="border:1px solid white;">
+					<div class="admin-body">
+						15
+					</div>
+				</div>
+				<div class="admin-item2">
+					<div class="admin-title">
+						<i class="fas fa-users"></i> &nbsp;  Admins<br>
+					</div>
+					<hr style="border:1px solid white;">
+					<div class="admin-body">
+						15
+					</div>
+				</div>
+				<div class="admin-item3">
+					<div class="admin-title">
+						<i class="fas fa-users"></i> &nbsp;  Vehicles<br>
+					</div>
+					<hr style="border:1px solid white;">
+					<div class="admin-body">
+						15
+					</div>					
+				</div>
+				<div class="admin-item4">
+					<div class="admin-title">
+						<i class="fas fa-users"></i> &nbsp;  Staff<br>
+					</div>
+					<hr style="border:1px solid white;">
+					<div class="admin-body">
+						15
+					</div>
+				</div>
+				<div class="admin-item5">
+					<div class="admin-title">
+						<i class="fas fa-user-slash"></i> &nbsp;  Deactive Users<br>
+					</div>
+					<hr style="border:1px solid white;">
+					<div class="admin-body">
+						15
+					</div>
+				</div>
+				<div class="admin-item6">
+					<div class="admin-title">
+						<i class="fas fa-user-slash"></i> &nbsp;  Deactive Admins<br>
+					</div>
+					<hr style="border:1px solid white;">
+					<div class="admin-body">
+						15
+					</div>
+				</div>
+				<div class="admin-item7">
+					<div class="admin-title">
+						<i class="fas fa-users"></i> &nbsp;  Deactive Vehicles<br>
+					</div>
+					<hr style="border:1px solid white;">
+					<div class="admin-body">
+						15
+					</div>
+				</div>
+				<div class="admin-item8">
+					<div class="admin-title">
+						<i class="fas fa-user-slash"></i> &nbsp; Deactive Staff<br>
+					</div>
+					<hr style="border:1px solid white;">
+					<div class="admin-body">
+						15
+					</div>
+				</div>
 			</div>
 		</div>
 	</main>
