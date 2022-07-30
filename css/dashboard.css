@@ -247,7 +247,13 @@
 
 .admin-title {
     padding-top: 20px;
-    padding-left: 40px;
+    padding-left: 30px;
+}
+
+.admin-body {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
 }
 
 @media (max-width: 1024px) {
