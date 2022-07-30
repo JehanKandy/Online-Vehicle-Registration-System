@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Roboto+Flex:opsz@8..144&family=Rubik&family=Teko:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -164,8 +165,7 @@
     background: rgb(29, 152, 235);
     font-size: 25px;
     color: white;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    text-align: center;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .admin-item2 {
@@ -177,7 +177,6 @@
     font-size: 25px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    text-align: center;
 }
 
 .admin-item3 {
@@ -189,7 +188,6 @@
     font-size: 25px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    text-align: center;
 }
 
 .admin-item4 {
@@ -201,7 +199,6 @@
     font-size: 25px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    text-align: center;
 }
 
 .admin-item5 {
@@ -213,7 +210,6 @@
     font-size: 25px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    text-align: center;
 }
 
 .admin-item6 {
@@ -225,7 +221,6 @@
     font-size: 25px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    text-align: center;
 }
 
 .admin-item7 {
@@ -237,7 +232,6 @@
     font-size: 25px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    text-align: center;
 }
 
 .admin-item8 {
@@ -249,7 +243,11 @@
     font-size: 25px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    text-align: center;
+}
+
+.admin-title {
+    padding-top: 20px;
+    padding-left: 40px;
 }
 
 @media (max-width: 1024px) {
