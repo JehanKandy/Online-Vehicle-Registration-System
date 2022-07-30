@@ -386,6 +386,20 @@ font-family: 'Teko', sans-serif;
     cursor: pointer;
 }
 
+.logout-btn-nav {
+    width: 100px;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    transition: 0.5s;
+}
+
+.logout-btn-nav:hover {
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.678), 0 3px 10px 0 rgba(255, 255, 255, 0.596);
+}
+
 
 /*laptop screen size*/
 
