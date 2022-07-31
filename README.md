@@ -66,3 +66,22 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
   2. UPDATE 
   - css/style.css
   - js/script.js
+
+
+<br>
+<hr>
+<br>
+
+<b>30 July 2022 </b>
+  1. DEVELOP
+  - css
+  - - dashboard.css
+  - lib
+  - - lib/routes
+  - - - lib/routes/admin.php
+  - - lib/layouts
+  - - - lab/layouts/nav_loged.php
+  
+  2. UPDATE 
+  - css/style.css
+  - js/script.js
