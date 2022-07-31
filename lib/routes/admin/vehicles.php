@@ -46,4 +46,5 @@ include_once("../../layouts/nav_loged.php");
 	</main>
 </div>
 
+
 <script src="../../../js/script.js"></script>
