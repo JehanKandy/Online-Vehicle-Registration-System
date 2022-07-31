@@ -19,6 +19,7 @@
 			<a href="#" class="menu-item"><i class="fas fa-user-tie"></i>Admins</a>
 			<a href="#" class="menu-item"><i class="fas fa-user-tag"></i>Staff</a>
 			<a href="#" class="menu-item"><i class="fas fa-car-alt"></i>Vehicles</a>
+			<a href="#" class="menu-item"><i class="fas fa-chalkboard-teacher"></i>My Details</a>
 			<a href="#" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
 		</nav>
 
