@@ -10,6 +10,13 @@
                 <i class="fas fa-user-plus"></i>&nbsp;Register
                 <hr>
             </div>
+            <?php 
+                include("../function/function.php");
+                if(isset($_POST['register'])){
+                    $result = user_reg($_POST['username'],$_POST['email'],$_POST['gender'], $_POST['password'], $_POST['cpassword']);
+                    echo $result;
+                }
+            ?>
             <div class="body">
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                     <div class="login-data">
@@ -33,7 +40,7 @@
                         <input type="password" name="cpassword" id="cpassword" class="login-input" placeholder="Confirm Password" required>        
                     </div>
                     <div class="login-data">
-                        <span><input type="submit" value="Register" name="login" class="reg-submit">
+                        <span><input type="submit" value="Register" name="register" class="reg-submit">
                         <input type="reset" value="Clear" class="reg-clear"></span>
                     </div>                    
                 </form>
