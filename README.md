@@ -89,7 +89,7 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
 <hr>
 <br>
 
-<b>31 July 2022 </b>
+<b>02 Auguest 2022 </b>
   1. DEVELOP
   - lib
   - - lib/routes
