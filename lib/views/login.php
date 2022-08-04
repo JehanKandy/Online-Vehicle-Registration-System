@@ -12,7 +12,10 @@
             </div>
             <?php 
                 include("../function/function.php");
-            
+                if(isset($_POST['login'])){
+                    $result = login_user($_POST['username'],$_POST['password']);
+                    echo $result;
+                }
             ?>
             <div class="body">
                 <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
