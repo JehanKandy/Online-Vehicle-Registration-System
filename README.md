@@ -107,6 +107,8 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
 <b>04 Auguest 2022 </b>
   1. DEVELOP
   - lib/
+  - - lib/layouts/
+  
 
   
   2.UPDATE 
