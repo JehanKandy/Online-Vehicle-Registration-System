@@ -18,12 +18,13 @@
                 return "<center>&nbsp<div class='alert alert-danger col-10' role='alert'>Passwords are Doesn't Match....!/div>&nbsp</center>";
             }
             else{
-                $insert_data = "INSERT INTO user_tbl(username,email,pass_user,gender)VALUES('$username','$email','$pass1','$gender')";
+                $insert_data = "INSERT INTO user_tbl(username,email,pass_user,gender,roll,user_status,join_date)VALUES('$username','$email','$pass1','$gender','user','1',NOW())";
                 $insert_data_result = mysqli_query($con, $insert_data);
                 header("location:../views/login.php");
             }
         } 
     }
+    function login_user($login_username,$login_pass)
 
     
 
