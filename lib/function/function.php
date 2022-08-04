@@ -28,7 +28,14 @@
         $con = Connection();
 
         $check_user_login = "SELECT * FROM user_tbl WHERE username='$login_username' && pass_user='$login_pass'";
+        $check_user_login_result = mysqli_query($con, $check_user_login);
+        $user_login_count = mysqli_num_rows($check_user_login_result);
+        $user_login_row = mysqli_fetch_assoc($check_user_login_result);
+
         
+
+
+
     }
 
     
