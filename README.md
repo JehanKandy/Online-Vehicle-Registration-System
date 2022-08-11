@@ -123,7 +123,7 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
 <hr>
 <br>
 
-<b>04 Auguest 2022 </b>
+<b>11 Auguest 2022 </b>
   1. DEVELOP
   - lib/
   - - lib/layouts/
