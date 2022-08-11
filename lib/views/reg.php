@@ -13,7 +13,7 @@
             <?php 
                 include("../function/function.php");
                 if(isset($_POST['register'])){
-                    $result = user_reg($_POST['username'],$_POST['email'],$_POST['gender'], $_POST['password'], $_POST['cpassword']);
+                    $result = user_reg($_POST['username'],$_POST['email'],$_POST['gender'], md5($_POST['password']), md5($_POST['cpassword']));
                     echo $result;
                 }
             ?>
