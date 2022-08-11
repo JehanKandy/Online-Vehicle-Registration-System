@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../../../css/style.css">
 <?php
 include_once("../../layouts/header.php");
-include_once("../../layouts/nav_loged.php");
+include_once("../../layouts/nav_loged_user.php");
 ?>
 
 <div class="app">
