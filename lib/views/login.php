@@ -13,7 +13,7 @@
             <?php 
                 include("../function/function.php");
                 if(isset($_POST['login'])){
-                    $result = login_user($_POST['username'],$_POST['password']);
+                    $result = login_user($_POST['username'],md5($_POST['password']));
                     echo $result;
                 }
             ?>
