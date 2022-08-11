@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../../../css/style.css">
 <?php
 include_once("../../layouts/header.php");
-include_once("../../layouts/nav_loged.php");
+include_once("../../layouts/nav_loged_user.php");
 ?>
 
 <div class="app">
@@ -21,7 +21,7 @@ include_once("../../layouts/nav_loged.php");
 			<a href="admins.php" class="menu-item"><i class="fas fa-user-tie"></i>Admins</a>
 			<a href="staff.php" class="menu-item"><i class="fas fa-user-tag"></i>Staff</a>
 			<a href="vehicles.php" class="menu-item"><i class="fas fa-car-alt"></i>Vehicles</a>
-            		<a href="my_infor.php" class="menu-item"><i class="fas fa-chalkboard-teacher"></i>My Details</a>
+            <a href="my_infor.php" class="menu-item"><i class="fas fa-chalkboard-teacher"></i>My Details</a>
 			<a href="my_account_admin.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
 		</nav>
 
@@ -45,6 +45,5 @@ include_once("../../layouts/nav_loged.php");
 		</div>
 	</main>
 </div>
-
 
 <script src="../../../js/script.js"></script>
