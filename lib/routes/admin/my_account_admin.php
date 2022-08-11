@@ -28,21 +28,9 @@ include_once("../../layouts/nav_loged.php");
 	</aside>
 
 	<main class="content">
-		<h1>All Vehicles</h1>
+		<h1>Account Details</h1>
 		<hr>
-		<div class="admin-content">
-			<div class="grid">
-				<div class="admin-item1">
-					<div class="admin-title">
-						<i class="fas fa-car-alt"></i> &nbsp;  Vehicles<br>
-					</div>
-					<hr style="border:1px solid white;">
-					<div class="admin-body">
-						15
-					</div>
-				</div>
-			</div>
-		</div>
+
 	</main>
 </div>
 
