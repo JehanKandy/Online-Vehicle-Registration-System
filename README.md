@@ -132,6 +132,7 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
    - - lib/layouts
    - - - lib/layouts/nav_loged_user.php
    - - lib/views
+   - - - lib/views/logout.php
    
   
   2.UPDATE 
