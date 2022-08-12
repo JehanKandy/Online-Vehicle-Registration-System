@@ -24,6 +24,7 @@
             }
         } 
     }
+
     function login_user($login_username,$login_pass){
         $con = Connection();
         
@@ -53,7 +54,7 @@
 
         $email = strval($_SESSION['LoginSession']);
 
-        $user_id_get = "SELECT * FROM email = '$email'";
+        $user_id_get = "SELECT * FROM user_tbl WHERE email = '$email'";
         $user_id_get_result = mysqli_query($con, $user_id_get);
 
         $user_id_row = mysqli_fetch_assoc($user_id_get_result);
