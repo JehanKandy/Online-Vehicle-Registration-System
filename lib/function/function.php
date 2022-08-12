@@ -54,7 +54,10 @@
         $email = strval($_SESSION['LoginSession']);
 
         $user_id_get = "SELECT * FROM email = '$email'";
+        $user_id_get_result = mysqli_query($con, $user_id_get);
+
         
+
         
     }
 
