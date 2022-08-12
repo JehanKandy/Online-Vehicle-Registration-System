@@ -120,10 +120,10 @@
 
 .sidebar .profile-name {
     color: white;
-    margin-bottom: 50px;
-    margin-left: 80px;
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
+    margin-left: -15%;
 }
 
 .admin-content {
