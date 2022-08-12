@@ -56,9 +56,10 @@
         $user_id_get = "SELECT * FROM email = '$email'";
         $user_id_get_result = mysqli_query($con, $user_id_get);
 
-        
+        $user_id_row = mysqli_fetch_assoc($user_id_get_result);
 
-        
+        echo ($user_id_row['username']);
+                
     }
 
 
