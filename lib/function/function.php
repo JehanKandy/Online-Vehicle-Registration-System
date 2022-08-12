@@ -49,6 +49,10 @@
     }
 
     function user_id(){
+        $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+
         
     }
 
