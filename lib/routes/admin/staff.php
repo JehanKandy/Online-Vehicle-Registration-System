@@ -15,7 +15,7 @@ include_once("../../layouts/nav_loged_user.php");
 	<aside class="sidebar">
 		<nav class="menu">
 			<img src="../../../1.PNG" alt="Profile" class="profile-img">
-			<p class="profile-name">JehanKandy</p>
+			<p class="profile-name"><?php user_id(); ?></p>
 			<a href="../admin.php" class="menu-item"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
 			<a href="users.php" class="menu-item"><i class="fas fa-user-alt"></i>Users</a>
 			<a href="admins.php" class="menu-item"><i class="fas fa-user-tie"></i>Admins</a>
