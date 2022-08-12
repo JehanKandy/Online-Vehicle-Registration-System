@@ -1,7 +1,14 @@
 <link rel="stylesheet" href="../../css/dashboard.css">
 <link rel="stylesheet" href="../../css/style.css">
-<?php include("../layouts/header.php"); ?>
-<?php include("../layouts/nav_loged.php"); ?>
+<?php include "../layouts/header.php";?>
+<?php include "../layouts/nav_loged.php";?>
+<?php
+if (empty($_SESSION['LoginSession'])) {
+    header('location:../views/login.php');
+}
+?>
+
+
 
 <div class="app">
 	<div class="menu-toggle">
@@ -13,7 +20,7 @@
 	<aside class="sidebar">
 		<nav class="menu">
 			<img src="../../1.PNG" alt="Profile" class="profile-img">
-			<p class="profile-name">JehanKandy</p>
+			<p class="profile-name"><?php user_id(); ?></p>
 			<a href="admin.php" class="menu-item"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
 			<a href="admin/users.php" class="menu-item"><i class="fas fa-user-alt"></i>Users</a>
 			<a href="admin/admins.php" class="menu-item"><i class="fas fa-user-tie"></i>Admins</a>
@@ -55,7 +62,7 @@
 					<hr style="border:1px solid white;">
 					<div class="admin-body">
 						15
-					</div>					
+					</div>
 				</div>
 				<div class="admin-item4">
 					<div class="admin-title">
@@ -108,4 +115,3 @@
 </div>
 
 <script src="../../js/script.js"></script>
-
