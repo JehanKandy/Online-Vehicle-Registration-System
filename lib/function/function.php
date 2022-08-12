@@ -26,7 +26,7 @@
     }
     function login_user($login_username,$login_pass){
         $con = Connection();
-
+        
         $check_user_login = "SELECT * FROM user_tbl WHERE username='$login_username' && pass_user='$login_pass'";
         $check_user_login_result = mysqli_query($con, $check_user_login);
         $user_login_count = mysqli_num_rows($check_user_login_result);
@@ -40,7 +40,7 @@
                 if($user_login_row['roll'] == 'user'){
                     setcookie('login',$user_login_row['email'],time()+60*60,'/');
                     $_SESSION['LoginSession'] = $user_login_row['email'];
-                    header("../routes/admin.php");                  
+                    header("location:../routes/admin.php");                  
                 }
             }
         }else{
