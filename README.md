@@ -161,3 +161,4 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
   - lib/routes/admin/my_infor.php
   - lib/routes/admin/staff.php
   - lib/routes/admin/users.php
+  - lib/routes/admin/vehicles.php
