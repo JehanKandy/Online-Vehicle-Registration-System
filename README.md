@@ -145,3 +145,30 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
   - lib/routes/admin/staff.php
   - lib/routes/admin/users.php
   - lib/routes/admin/vehicles.php
+
+<br>
+<hr>
+<br>
+
+<b>11 Auguest 2022 </b>
+  1. DEVELOP
+   - lib
+   - - lib/routes
+   - - - lib/routes/admin
+   - - - - lib/routes/admin/my_account_admin.php
+   - - lib/layouts
+   - - - lib/layouts/nav_loged_user.php
+   - - lib/views
+   - - - lib/views/logout.php
+   
+  
+  2.UPDATE 
+  - css/dashboard.css
+  - lib/routes/admin/my_account_admin.php
+  - lib/views/reg.php
+  - lib/views/login.php
+  - lib/routes/admin/admins.php
+  - lib/routes/admin/my_infor.php
+  - lib/routes/admin/staff.php
+  - lib/routes/admin/users.php
+  - lib/routes/admin/vehicles.php
