@@ -151,7 +151,7 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
 <br>
 
 <b>11 Auguest 2022 </b>
-  1.UPDATE 
+  <br>1.UPDATE 
   - lib/function/function.php
   - lib/layouts/nav_loged.php
   - lib/layouts/nav_loged_user.php
