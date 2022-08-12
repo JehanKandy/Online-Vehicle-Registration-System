@@ -53,7 +53,8 @@
 
         $email = strval($_SESSION['LoginSession']);
 
-        $user_id_get = "SELECT * FROM "
+        $user_id_get = "SELECT * FROM email = '$email'";
+        
         
     }
 
