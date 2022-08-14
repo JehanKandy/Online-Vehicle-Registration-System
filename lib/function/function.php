@@ -121,7 +121,7 @@
                             Profile Image   
                         </td>
                         <td>
-                            <img src='../../upload/".$admin_user_row['profile_img']."' 
+                            <img src='../../../upload/".$admin_user_row['profile_img']."' class='profile-photo'> 
                         </td>
                     </tr>
                 </table>
