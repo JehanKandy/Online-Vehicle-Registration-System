@@ -104,7 +104,7 @@
                             Username   
                         </td>
                         <td>
-                            :&nbsp;<input type='text' value='".$admin_user_row['username']."' class='update-input-view'>
+                            :&nbsp;<input type='text' value='".$admin_user_row['username']."' class='update-input-view' disabled>
                         </td>
                     </tr>
                     <tr>
@@ -112,7 +112,7 @@
                             Email   
                         </td>
                         <td>
-                            :&nbsp;<input type='email' value='".$admin_user_row['email']."' class='update-input-view'>
+                            :&nbsp;<input type='email' value='".$admin_user_row['email']."' class='update-input-view' disabled>
                         </td>
                     </tr>
                 </table>
