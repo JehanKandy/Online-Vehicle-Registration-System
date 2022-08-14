@@ -98,7 +98,7 @@
 
         echo "
             <div class='acc-update'>
-                <table border = '0'>
+                <table border = '0' class='acc-update-table'>
                     <tr>
                         <td>
                             Username   
