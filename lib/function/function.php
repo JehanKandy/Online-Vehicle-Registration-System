@@ -73,7 +73,19 @@
         $check_user_img_row = mysqli_fetch_assoc($check_user_img_result);
 
         echo "
-            <img src='../../".$check_user_img_row['']."' alt='Profile Image' class='profile-img'>
+            <img src='../../upload/".$check_user_img_row['profile_img']."' alt='Profile Image' class='profile-img'>
+        ";
+    }
+    function profile_img_user(){
+        $con = Connection();
+        $email = strval($_SESSION['LoginSession']);
+
+        $check_user_img = "SELECT * FROM user_tbl WHERE email = '$email' && user_status = '1'";
+        $check_user_img_result = mysqli_query($con, $check_user_img);
+        $check_user_img_row = mysqli_fetch_assoc($check_user_img_result);
+
+        echo "
+            <img src='../../../upload/".$check_user_img_row['profile_img']."' alt='Profile Image' class='profile-img'>
         ";
     }
 ?>
