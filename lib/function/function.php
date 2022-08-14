@@ -91,8 +91,9 @@
 
     function account_admin(){
         $con = Connection();
+        $email = strval($_SESSION['LoginSession']);
 
-        $admin_user = "SELECT * FROM user_tbl WHERE roll = 'admin' && user_status = '1'";
+        $admin_user = "SELECT * FROM user_tbl WHERE roll = 'admin' && user_status = '1' && email = '$email'";
         $admin_user_result = mysqli_query($con, $admin_user);
         $admin_user_row = mysqli_fetch_assoc($admin_user_result);
 
@@ -120,7 +121,7 @@
                             Profile Image   
                         </td>
                         <td>
-                            :&nbsp;<input type='email' value='".$admin_user_row['email']."' class='update-input-view' disabled>
+                            <img src='../../upload/".$admin_user_row['profile_img']."' 
                         </td>
                     </tr>
                 </table>
