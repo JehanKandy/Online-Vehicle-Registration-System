@@ -24,13 +24,12 @@ include_once("../../layouts/nav_loged_user.php");
             <a href="my_infor.php" class="menu-item"><i class="fas fa-chalkboard-teacher"></i>My Details</a>
 			<a href="my_account_admin.php" class="menu-item"><i class="fas fa-user-cog"></i>Account Settings</a>
 		</nav>
-
 	</aside>
 
 	<main class="content">
 		<h1>Account Details</h1>
 		<hr>
-
+		<?php account_admin(); ?>
 	</main>
 </div>
 
