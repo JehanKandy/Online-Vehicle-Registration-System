@@ -417,7 +417,6 @@ font-family: 'Teko', sans-serif;
     margin-left: 5px;
     width: 200px;
     height: 200px;
-    border: 1px solid black;
 }
 
 
@@ -625,6 +624,11 @@ for standard iPad screen size
         width: 200px;
         padding-left: 5px;
         font-size: 18px;
+    }
+    .acc-update-table tr .profile-photo {
+        margin-left: 5px;
+        width: 120px;
+        height: 120px;
     }
 }
 
