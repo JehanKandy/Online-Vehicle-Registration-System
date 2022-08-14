@@ -108,7 +108,10 @@
     border-bottom-left-radius: 15px;
     box-shadow: 0 2px 4px 0 rgba(31, 21, 165, 0.678), 0 3px 10px 0 rgba(31, 21, 165, 0.678);
 }
-
+.sidebar .menu .menu-item .active{
+    background-color: #313131;
+    
+}
 .sidebar .profile-img {
     width: 100px;
     height: 100px;
