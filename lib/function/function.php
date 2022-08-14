@@ -98,7 +98,13 @@
 
         echo "
             <div class='acc-update'>
-                hi
+                <table border = '0'>
+                    <tr>
+                        <td>
+                            Username : 
+                        </td>
+                    </tr>
+                </table>
             </div>
 
         ";
