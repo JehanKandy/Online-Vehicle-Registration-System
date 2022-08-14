@@ -38,7 +38,7 @@
                 return "<center>&nbsp<div class='alert alert-danger col-10' role='alert'>Password is Does't Match...!</div>&nbsp</center>";
             }
             else{
-                if($user_login_row['roll'] == 'user'){
+                if($user_login_row['roll'] == 'admin'){
                     setcookie('login',$user_login_row['email'],time()+60*60,'/');
                     $_SESSION['LoginSession'] = $user_login_row['email'];
                     header("location:../routes/admin.php");                  
@@ -91,5 +91,8 @@
 
     function account_admin(){
         $con = Connection();
+
+        $admin_user = "SELECT * FROM user_tbl WHERE roll = 'admin' && user_status = '1'";
+        
     }
 ?>
