@@ -73,7 +73,7 @@
         $check_user_img_row = mysqli_fetch_assoc($check_user_img_result);
 
         echo "
-            <img src='../../1.PNG' alt='Profile Image' class='profile-img'>
+            <img src='../../".$check_user_img_row['']."' alt='Profile Image' class='profile-img'>
         ";
     }
 ?>
