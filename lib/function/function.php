@@ -117,7 +117,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td style='vertical-align:top;'>
                             Profile Image   
                         </td>
                         <td>
