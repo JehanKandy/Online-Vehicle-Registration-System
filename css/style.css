@@ -608,6 +608,17 @@ for standard iPad screen size
         border: 1px solid rgb(165, 164, 164);
         border-radius: 5px;
     }
+    .acc-update-table tr {
+        height: 60px;
+    }
+    .update-input-view {
+        border-radius: 5px;
+        border: 1px solid rgb(184, 184, 184);
+        height: 45px;
+        width: 200px;
+        padding-left: 5px;
+        font-size: 18px;
+    }
 }
 
 
