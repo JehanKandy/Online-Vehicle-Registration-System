@@ -66,5 +66,8 @@
 
     function profile_img(){
         $con = Connection();
+        $email = strval($_SESSION['LoginSession']);
+
+        $check_user_img = "SELECT * FROM user_tbl WHERE email = '$email' && user_status = '1'";
     }
 ?>
