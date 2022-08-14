@@ -88,4 +88,8 @@
             <img src='../../../upload/".$check_user_img_row['profile_img']."' alt='Profile Image' class='profile-img'>
         ";
     }
+
+    function account_admin(){
+        $con = Connection();
+    }
 ?>
