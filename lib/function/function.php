@@ -118,7 +118,7 @@
                     </tr>
                     <tr>
                         <td style='vertical-align:top;'>
-                            Profile Image   
+                            Profile Image &nbsp; :   
                         </td>
                         <td>
                             <img src='../../../upload/".$admin_user_row['profile_img']."' class='profile-photo'> 
