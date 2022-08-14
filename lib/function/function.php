@@ -70,5 +70,13 @@
 
         $check_user_img = "SELECT * FROM user_tbl WHERE email = '$email' && user_status = '1'";
         $check_user_img_result = mysqli_query($con, $check_user_img);
+        $check_user_img_row = mysqli_fetch_assoc($check_user_img_result);
+
+        echo "
+            <div>
+                
+            </div>
+        ";
+
     }
 ?>
