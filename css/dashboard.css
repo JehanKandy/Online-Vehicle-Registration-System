@@ -114,6 +114,7 @@
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border-color: white;
+    border-radius: 5px;
 }
 
 .sidebar .profile-img {
