@@ -400,6 +400,15 @@ font-family: 'Teko', sans-serif;
     box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.678), 0 3px 10px 0 rgba(255, 255, 255, 0.596);
 }
 
+.update-input-view {
+    border-radius: 2px;
+    border: 1px solid rgb(184, 184, 184);
+    height: 40px;
+    padding-left: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
 
 /*laptop screen size*/
 
