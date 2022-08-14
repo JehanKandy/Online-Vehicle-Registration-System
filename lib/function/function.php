@@ -64,4 +64,7 @@
     }
 
 
+    function profile_img(){
+        $con = Connection();
+    }
 ?>
