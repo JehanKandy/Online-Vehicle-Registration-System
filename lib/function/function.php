@@ -101,7 +101,18 @@
                 <table border = '0'>
                     <tr>
                         <td>
-                            Username : 
+                            Username   
+                        </td>
+                        <td>
+                            :&nbsp;<input type='text' value='".$admin_user_row['username']."' class='update-input-view'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email   
+                        </td>
+                        <td>
+                            :&nbsp;<input type='email' value='".$admin_user_row['email']."' class='update-input-view'>
                         </td>
                     </tr>
                 </table>
