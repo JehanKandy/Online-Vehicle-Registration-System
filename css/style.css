@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Roboto+Flex:opsz@8..144&family=Rubik&family=Teko:wght@300&display=swap');
+
+/*
+
+use font families
+
+font-family: 'Bebas Neue', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Teko', sans-serif;
+*/
+
+
+/*
+    This Style Sheet is completely responsive for following devices
+        1. standard laptop screen width size.
+        (1366x768)
+
+        2. Ipad Size - landscape
+        2.1.  Ipad Size - portrait
+        (768x1024px)
+
+        3 Iphone X - portrait
+        3.1 Iphone X - landscape
+        (375x812)
+
+*/
+
+.login-btn-nav {
+    width: 100px;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea);
+    transition: 0.5s;
+}
+
+.login-btn-nav:hover {
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.678), 0 3px 10px 0 rgba(255, 255, 255, 0.596);
+}
+
+.home {
+    background: -webkit-linear-gradient(rgba(70, 70, 70, 0.7), rgba(0, 0, 0, 0.7)), url(../images/car1.jpg);
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-content {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 60px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.home-content .title {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 50px;
+}
+
+.gallery {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.gallery-content {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.gallery .grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(350px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c d" "e f g h";
+}
+
+.gallery-item1 {
+    grid-area: a;
+    border: none;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.gallery-item2 {
+    grid-area: b;
+    border: none;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car2.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.gallery-item3 {
+    grid-area: c;
+    border: none;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car3.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.gallery-item4 {
+    grid-area: d;
+    border: none;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car4.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.gallery-item5 {
+    grid-area: e;
+    border: none;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car5.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.gallery-item6 {
+    grid-area: f;
+    border: none;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car6.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.gallery-item7 {
+    grid-area: g;
+    border: none;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car7.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.gallery-item8 {
+    grid-area: h;
+    border: none;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car8.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(245, 245, 245);
+}
+
+.contact-content {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.contact-body {
+    padding-left: 630px;
+}
+
+.partners {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.partners-content {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.partners .grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c d e f";
+}
+
+.partner-item1 {
+    grid-area: a;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/logo1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.partner-item2 {
+    grid-area: b;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/logo3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.partner-item3 {
+    grid-area: c;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/logo4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.partner-item4 {
+    grid-area: d;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/logo5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.partner-item5 {
+    grid-area: e;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/logo6.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.partner-item6 {
+    grid-area: f;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/logo7.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.login {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.login-box {
+    width: 500px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.login-content .title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.login-content .body .login-data {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.login-content .body .login-input {
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 5px;
+}
+
+.login-content .body .login-submit {
+    width: 100%;
+    height: 50px;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea);
+    transition: 0.5s;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.login-content .body .login-submit:hover {
+    background: -webkit-linear-gradient(right, #9f01ea, #56d8e4);
+    box-shadow: 0 2px 4px 0 rgba(87, 87, 87, 0.678), 0 3px 10px 0 rgba(56, 56, 56, 0.596);
+    cursor: pointer;
+}
+
+.login-content .body .reg-submit {
+    width: 49%;
+    height: 50px;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea);
+    transition: 0.5s;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.login-content .body .reg-submit:hover {
+    background: -webkit-linear-gradient(right, #9f01ea, #56d8e4);
+    box-shadow: 0 2px 4px 0 rgba(87, 87, 87, 0.678), 0 3px 10px 0 rgba(56, 56, 56, 0.596);
+    cursor: pointer;
+}
+
+.login-content .body .reg-clear {
+    width: 49%;
+    height: 50px;
+    background: -webkit-linear-gradient(right, #d6d6d6, #525252);
+    transition: 0.5s;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.login-content .body .reg-clear:hover {
+    background: -webkit-linear-gradient(right, #525252, #d6d6d6);
+    box-shadow: 0 2px 4px 0 rgba(87, 87, 87, 0.678), 0 3px 10px 0 rgba(56, 56, 56, 0.596);
+    cursor: pointer;
+}
+
+.logout-btn-nav {
+    width: 100px;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    transition: 0.5s;
+}
+
+.logout-btn-nav:hover {
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.678), 0 3px 10px 0 rgba(255, 255, 255, 0.596);
+}
+
+
+/*laptop screen size*/
+
+@media only screen and (max-width: 1400px) {
+    .contact-body {
+        padding-left: 470px;
+    }
+    .home-content {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 200px;
+        font-size: 60px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .login {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+}
+
+
+/*
+    iPad - portrait
+
+for standard iPad screen size 
+        width : 768px
+        height : 1024px
+        portrait
+       
+*/
+
+@media screen and (max-width: 768px) {
+    .home-content {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 300px;
+        font-size: 50px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .home-content .title {
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 40px;
+    }
+    .gallery .grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(350px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b" "c d" "e f" "g h";
+    }
+    .contact {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: rgb(245, 245, 245);
+    }
+    .contact-content {
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Rubik', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+    .contact-body {
+        padding-left: 230px;
+    }
+    .login {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+}
+
+
+/*
+iPad - landscape 
+
+for standard iPad screen size 
+        width : 768px
+        height : 1024px
+        landscape 
+        
+
+
+*/
+
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
+    .gallery .grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(350px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b" "c d" "e f" "g h";
+    }
+    .contact-body {
+        padding-left: 300px;
+    }
+    .login {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 210px;
+        padding-right: 210px;
+    }
+}
+
+
+/*
+    iPhone X - portrait
+
+for standard iPad screen size 
+        width : 375px
+        height : 812px
+        portrait
+       
+*/
+
+@media screen and (max-width: 375px) {
+    .home-content {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 150px;
+        font-size: 50px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .home-content .title {
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 40px;
+    }
+    .gallery {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .gallery .grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(350px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h";
+    }
+    .contact-body {
+        padding-left: 25px;
+    }
+    .partners {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .partners .grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b" "c d" "e f";
+    }
+    .login {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .login-box {
+        width: 320px;
+        border: 1px solid rgb(179, 179, 179);
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 20px;
+        border-radius: 5px;
+    }
+    .login-content .body .login-input {
+        width: 300px;
+        height: 50px;
+        border: 1px solid rgb(165, 164, 164);
+        border-radius: 5px;
+    }
+}
+
+
+/*
+    iPhone X - landscape
+
+for standard iPad screen size 
+        width : 375px
+        height : 812px
+        landscape
+       
+*/
+
+@media screen and (min-width: 811px) and (max-width: 812px) {
+    .home-content {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 40px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .home-content .title {
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 30px;
+    }
+    .gallery .grid {
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(350px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b" "c d" "e f" "g h";
+    }
+    .contact-body {
+        padding-left: 190px;
+    }
+    .login {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
