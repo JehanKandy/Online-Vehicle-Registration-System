@@ -115,6 +115,14 @@
                             :&nbsp;<input type='email' value='".$admin_user_row['email']."' class='update-input-view' disabled>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            Profile Image   
+                        </td>
+                        <td>
+                            :&nbsp;<input type='email' value='".$admin_user_row['email']."' class='update-input-view' disabled>
+                        </td>
+                    </tr>
                 </table>
             </div>
 
