@@ -226,4 +226,22 @@
 
         echo $admin_data_view;
     }
+
+
+    function user_update(){
+        $con = Connection();
+
+        $id = $_GET['id'];
+        
+        $user_update_form = "
+            <form action='' method='POST'>
+                <table border='0'>
+
+                </table>
+            </form>
+
+        ";
+
+        echo $user_update_form;
+    }
 ?>
