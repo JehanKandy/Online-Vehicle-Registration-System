@@ -204,7 +204,7 @@
                             if($admin_data_view['user_status'] == '1'){
                                 $admin_data_view .= "<h2><span class='badge badge-success'><i class='fas fa-star'></i>Active User</span></h2>";
                             }elseif($admin_data_view['user_status'] == '0'){
-
+                                $admin_data_view .= "<h2><span class='badge badge-danger'><i class='fas fa-star'></i>Deactive User</span></h2>";
                             }
 
         $admin_data_view .= "</td>
