@@ -148,6 +148,14 @@
                              &nbsp; <textarea class='update-textarea' disabled>".$admin_user_row['full_name']."</textarea>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            Gender     
+                        </td>
+                        <td>
+                            :&nbsp;<input type='email' value='".$admin_user_row['gender']."' class='update-input-view' disabled>
+                        </td>
+                    </tr>
                 </table>
             </div>
 
