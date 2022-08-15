@@ -209,7 +209,14 @@
 
         $admin_data_view .= "</td>
                     </tr>
-
+                    <tr>
+                        <td>
+                            Join Date 
+                        </td>
+                        <td>
+                        :&nbsp;<input type='date' value='".$admin_user_row['join_date']."' class='update-input-view' disabled>
+                        </td>
+                    </tr>
                 </table>
             </div>
 
