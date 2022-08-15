@@ -140,6 +140,14 @@
                             :&nbsp;<input type='email' value='".$admin_user_row['lname']."' class='update-input-view' disabled>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            Full Name     
+                        </td>
+                        <td>
+                            &nbsp; <textarea >".$admin_user_row['full_name']."</textarea>
+                        </td>
+                    </tr>
                 </table>
             </div>
 
