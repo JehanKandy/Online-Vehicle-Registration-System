@@ -193,7 +193,7 @@
                             User Roll 
                         </td>
                         <td>
-                            :&nbsp;<input type='text' value='".$admin_user_row['roll']."' class='update-input-view' disabled>
+                            <h2><span class='badge badge-secondary'>New</span></h2>
                         </td>
                     </tr>
                 </table>
