@@ -164,6 +164,14 @@
                             &nbsp; <textarea class='update-textarea' disabled>".$admin_user_row['address']."</textarea>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            Mobile Number     
+                        </td>
+                        <td>
+                            :&nbsp;<input type='email' value='".$admin_user_row['mobile_no']."' class='update-input-view' disabled>
+                        </td>
+                    </tr>
                 </table>
             </div>
 
