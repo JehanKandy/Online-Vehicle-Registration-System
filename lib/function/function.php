@@ -180,6 +180,14 @@
                             :&nbsp;<input type='email' value='".$admin_user_row['nic_no']."' class='update-input-view' disabled>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            Date Of Birth   
+                        </td>
+                        <td>
+                            :&nbsp;<input type='email' value='".$admin_user_row['dob']."' class='update-input-view' disabled>
+                        </td>
+                    </tr>
                 </table>
             </div>
 
