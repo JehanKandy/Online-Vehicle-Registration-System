@@ -193,7 +193,7 @@
                             User Roll 
                         </td>
                         <td>
-                            <h2><span class='badge badge-warning'>New</span></h2>
+                            <h2><span class='badge badge-warning'><i class='fas fa-star'></i>Admin</span></h2>
                         </td>
                     </tr>
                 </table>
