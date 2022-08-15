@@ -132,6 +132,14 @@
                             :&nbsp;<input type='email' value='".$admin_user_row['fname']."' class='update-input-view' disabled>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            Last Name     
+                        </td>
+                        <td>
+                            :&nbsp;<input type='email' value='".$admin_user_row['lname']."' class='update-input-view' disabled>
+                        </td>
+                    </tr>
                 </table>
             </div>
 
