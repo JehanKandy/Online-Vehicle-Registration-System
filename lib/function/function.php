@@ -220,6 +220,8 @@
                 </table>
             </div>
 
+            <a href='update_admin.php?id=".$admin_user_row['email']."'><button class='btn btn-primary'><i class='fas fa-edit'></i> &nbsp; Update Information</button>
+
         ";
 
         echo $admin_data_view;
