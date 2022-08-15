@@ -172,6 +172,14 @@
                             :&nbsp;<input type='email' value='".$admin_user_row['mobile_no']."' class='update-input-view' disabled>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            NIC Number   
+                        </td>
+                        <td>
+                            :&nbsp;<input type='email' value='".$admin_user_row['nic_no']."' class='update-input-view' disabled>
+                        </td>
+                    </tr>
                 </table>
             </div>
 
