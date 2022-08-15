@@ -201,9 +201,9 @@
                             User Status
                         </td>
                         <td>";
-                            if($admin_data_view['user_status'] == '1'){
+                            if($admin_user_row['user_status'] == '1'){
                                 $admin_data_view .= "<h2><span class='badge badge-success'><i class='fas fa-star'></i>Active User</span></h2>";
-                            }elseif($admin_data_view['user_status'] == '0'){
+                            }elseif($admin_user_row['user_status'] == '0'){
                                 $admin_data_view .= "<h2><span class='badge badge-danger'><i class='fas fa-star'></i>Deactive User</span></h2>";
                             }
 
