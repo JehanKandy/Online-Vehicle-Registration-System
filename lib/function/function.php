@@ -145,7 +145,7 @@
                             Full Name     
                         </td>
                         <td>
-                            &nbsp; <textarea rows='10' cols='50' class='update-textarea'>".$admin_user_row['full_name']."</textarea>
+                             &nbsp; <textarea class='update-textarea' disabled>".$admin_user_row['full_name']."</textarea>
                         </td>
                     </tr>
                 </table>
