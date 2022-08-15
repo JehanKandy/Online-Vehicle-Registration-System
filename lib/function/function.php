@@ -200,9 +200,10 @@
                         <td>
                             User Status
                         </td>
-                        <td>
+                        <td>";
 
-                        </td>
+
+        $admin_data_view .= "</td>
                     </tr>
 
                 </table>
