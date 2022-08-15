@@ -156,6 +156,14 @@
                             :&nbsp;<input type='email' value='".$admin_user_row['gender']."' class='update-input-view' disabled>
                         </td>
                     </tr>
+                    <tr>
+                        <td style='vertical-align:top;'>
+                            Address     
+                        </td>
+                        <td>
+                            &nbsp; <textarea class='update-textarea' disabled>".$admin_user_row['address']."</textarea>
+                        </td>
+                    </tr>
                 </table>
             </div>
 
