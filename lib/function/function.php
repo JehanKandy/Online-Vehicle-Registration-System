@@ -97,7 +97,7 @@
         $admin_user_result = mysqli_query($con, $admin_user);
         $admin_user_row = mysqli_fetch_assoc($admin_user_result);
 
-        echo "
+        $admin_data_view = "
             <div class='acc-update'>
                 <table border = '0' class='acc-update-table'>
                     <tr>
@@ -196,10 +196,20 @@
                             <h2><span class='badge badge-warning'><i class='fas fa-star'></i>Admin</span></h2>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            User Status
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+
                 </table>
             </div>
 
         ";
 
+        echo $admin_data_view;
     }
 ?>
