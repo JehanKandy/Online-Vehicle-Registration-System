@@ -141,11 +141,11 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td  style='vertical-align:top;'>
                             Full Name     
                         </td>
                         <td>
-                            &nbsp; <textarea >".$admin_user_row['full_name']."</textarea>
+                            &nbsp; <textarea rows='10' cols='50' class='update-textarea'>".$admin_user_row['full_name']."</textarea>
                         </td>
                     </tr>
                 </table>
