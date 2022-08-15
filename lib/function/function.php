@@ -129,7 +129,7 @@
                             First Name     
                         </td>
                         <td>
-                            :&nbsp;<input type='email' value='".$admin_user_row['fname']."' class='update-input-view' disabled>
+                            :&nbsp;<input type='text' value='".$admin_user_row['fname']."' class='update-input-view' disabled>
                         </td>
                     </tr>
                     <tr>
@@ -137,7 +137,7 @@
                             Last Name     
                         </td>
                         <td>
-                            :&nbsp;<input type='email' value='".$admin_user_row['lname']."' class='update-input-view' disabled>
+                            :&nbsp;<input type='text' value='".$admin_user_row['lname']."' class='update-input-view' disabled>
                         </td>
                     </tr>
                     <tr>
@@ -153,7 +153,7 @@
                             Gender     
                         </td>
                         <td>
-                            :&nbsp;<input type='email' value='".$admin_user_row['gender']."' class='update-input-view' disabled>
+                            :&nbsp;<input type='text' value='".$admin_user_row['gender']."' class='update-input-view' disabled>
                         </td>
                     </tr>
                     <tr>
@@ -169,7 +169,7 @@
                             Mobile Number     
                         </td>
                         <td>
-                            :&nbsp;<input type='email' value='".$admin_user_row['mobile_no']."' class='update-input-view' disabled>
+                            :&nbsp;<input type='text' value='".$admin_user_row['mobile_no']."' class='update-input-view' disabled>
                         </td>
                     </tr>
                     <tr>
@@ -177,7 +177,7 @@
                             NIC Number   
                         </td>
                         <td>
-                            :&nbsp;<input type='email' value='".$admin_user_row['nic_no']."' class='update-input-view' disabled>
+                            :&nbsp;<input type='text' value='".$admin_user_row['nic_no']."' class='update-input-view' disabled>
                         </td>
                     </tr>
                     <tr>
@@ -185,7 +185,7 @@
                             Date Of Birth   
                         </td>
                         <td>
-                            :&nbsp;<input type='email' value='".$admin_user_row['dob']."' class='update-input-view' disabled>
+                            :&nbsp;<input type='date' value='".$admin_user_row['dob']."' class='update-input-view' disabled>
                         </td>
                     </tr>
                 </table>
