@@ -118,10 +118,18 @@
                     </tr>
                     <tr>
                         <td style='vertical-align:top;'>
-                            Profile Image &nbsp; :   
+                            Profile Image   
                         </td>
                         <td>
-                            <img src='../../../upload/".$admin_user_row['profile_img']."' class='profile-photo'> 
+                            &nbsp;<img src='../../../upload/".$admin_user_row['profile_img']."' class='profile-photo'> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            First Name     
+                        </td>
+                        <td>
+                            :&nbsp;<input type='email' value='".$admin_user_row['fname']."' class='update-input-view' disabled>
                         </td>
                     </tr>
                 </table>
