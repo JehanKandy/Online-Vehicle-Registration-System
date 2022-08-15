@@ -188,6 +188,14 @@
                             :&nbsp;<input type='date' value='".$admin_user_row['dob']."' class='update-input-view' disabled>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            User Roll 
+                        </td>
+                        <td>
+                            :&nbsp;<input type='text' value='".$admin_user_row['roll']."' class='update-input-view' disabled>
+                        </td>
+                    </tr>
                 </table>
             </div>
 
