@@ -217,11 +217,18 @@
                         :&nbsp;<input type='date' value='".$admin_user_row['join_date']."' class='update-input-view' disabled>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <a href='update_admin.php?id=".$admin_user_row['email']."'><button class='btn btn-primary'><i class='fas fa-edit'></i> &nbsp; Update Information</button></a>&nbsp;
+                        </td>
+                        <td>
+                            &nbsp; <a href='update_pass.php?id=".$admin_user_row['email']."'><button class='btn btn-danger'><i class='fas fa-key'></i> &nbsp; Update Password</button></a>
+                        </td>
+                    </tr>
                 </table>
             </div>
 
-            <a href='update_admin.php?id=".$admin_user_row['email']."'><button class='btn btn-primary'><i class='fas fa-edit'></i> &nbsp; Update Information</button>
-
+            
         ";
 
         echo $admin_data_view;
