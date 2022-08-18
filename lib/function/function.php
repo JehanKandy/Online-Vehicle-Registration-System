@@ -239,7 +239,11 @@
         $con = Connection();
 
         $id = $_GET['id'];
-        
+
+        $update_admin = "SELECT * FROM user_tbl WHERE email = '$id'";
+        $update_admin_result = mysqli_query($con, $update_admin);
+        $update_admin_row = mysqli_fetch_assoc($update_admin_result);
+
         $user_update_form = "
             <form action='' method='POST'>
                 <table border='0'>
