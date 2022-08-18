@@ -201,5 +201,4 @@ Online Vehicle Registration System combines Project with Online Fuel Registratio
   - css/style.css
   
   2.DEVELOP 
-  - lib/function/function.php
-  - css/style.css
+  - lib
