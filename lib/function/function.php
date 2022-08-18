@@ -243,8 +243,15 @@
         $user_update_form = "
             <form action='' method='POST'>
                 <table border='0'>
-
-                </table>
+                    <tr>
+                        <td>
+                            Username : 
+                        </td>
+                        <td>
+                            <input text='text' name='username' value=''>
+                        </td>
+                    </tr>
+                </table>    
             </form>
 
         ";
