@@ -280,6 +280,14 @@
                             <input text='text' name='lname' value='".$update_admin_row['lname']."' class='update-input-view'>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            Full Name : 
+                        </td>
+                        <td>
+                            <input text='text' name='lname' value='".$update_admin_row['lname']."' class='update-input-view'>
+                        </td>
+                    </tr>
                 </table>  
             </form>
         </div>
