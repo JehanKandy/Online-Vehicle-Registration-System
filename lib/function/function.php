@@ -222,7 +222,7 @@
                             <a href='update_admin.php?id=".$admin_user_row['email']."'><button class='btn btn-primary'><i class='fas fa-edit'></i> &nbsp; Update Information</button></a>&nbsp;
                         </td>
                         <td>
-                            &nbsp; <a href='update_pass_admin.php?id=".$admin_user_row['email']."'><button class='btn btn-danger'><i class='fas fa-key'></i> &nbsp; Update Password</button></a>
+                            &nbsp; <a href='update_pass.php?id=".$admin_user_row['email']."'><button class='btn btn-danger'><i class='fas fa-key'></i> &nbsp; Update Password</button></a>
                         </td>
                     </tr>
                 </table>
@@ -254,7 +254,6 @@
                         </td>
                         <td>
                             <input text='text' name='username' value='".$update_admin_row['username']."' class='update-input-view'>
-                            <i class='fas fa-edit'></i>
                         </td>
                     </tr>
                     <tr>
