@@ -298,10 +298,10 @@
                     </tr>
                     <tr>
                         <td>
-                            Full Name : 
+                            Gender : 
                         </td>
                         <td>
-                            <input text='text' name='lname' value='".$update_admin_row['full_name']."' class='update-input-view'>
+                            <input text='text' name='lname' value='".$update_admin_row['gender']."' class='update-input-view' disabled>
                         </td>
                     </tr>
                 </table>  
