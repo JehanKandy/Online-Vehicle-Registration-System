@@ -285,7 +285,7 @@
                             Full Name : 
                         </td>
                         <td>
-                            <input text='text' name='lname' value='".$update_admin_row['lname']."' class='update-input-view'>
+                            <input text='text' name='lname' value='".$update_admin_row['full_name']."' class='update-input-view'>
                         </td>
                     </tr>
                 </table>  
