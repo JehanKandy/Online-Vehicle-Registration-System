@@ -265,20 +265,6 @@
                         </td>
                     </tr>
                     <tr>
-                        <td style='vertical-align:top;'>
-                            Profile Image   
-                        </td>
-                        <td>
-                            &nbsp;<img src='../../../upload/".$update_admin_row['profile_img']."' class='profile-photo'> 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>                            
-                        </td>
-                        <td>
-                        </td>
-                    </tr>
-                    <tr>
                         <td>
                             First Name : 
                         </td>
