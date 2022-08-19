@@ -272,6 +272,14 @@
                             &nbsp;<img src='../../../upload/".$update_admin_row['profile_img']."' class='profile-photo'> 
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            First Name : 
+                        </td>
+                        <td>
+                            <input text='text' name='fname' value='".$update_admin_row['fname']."' class='update-input-view'>
+                        </td>
+                    </tr>
                 </table>  
             </form>
         </div>
