@@ -5,7 +5,7 @@
             <div class="row text-center text-md-left">
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt3">
                     <h5 class="text-uppercase md-4 font-wight-bold text-warning">Project Alpha</h5>
-                    <p>Register Your Vehicle with the System for Register fuel and other future Registrations. This membership vaild for life-time</p>
+                    <p>The Project Alpha, Develop for educational </p>
                 </div>
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt3">
                     <h5 class="text-uppercase md-4 font-wight-bold text-warning">Partnership</h5>
