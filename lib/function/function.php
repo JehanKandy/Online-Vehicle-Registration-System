@@ -245,18 +245,37 @@
         $update_admin_row = mysqli_fetch_assoc($update_admin_result);
 
         $user_update_form = "
-            <form action='' method='POST'>
+
+        <form action='' method='POST'>
+            <div class='acc-update'>
                 <table border='0'>
                     <tr>
                         <td>
                             Username : 
                         </td>
                         <td>
-                            <input text='text' name='username' value=''>
+                            <input text='text' name='username' value='".$update_admin_row['username']."' class='update-input-view'>
                         </td>
                     </tr>
-                </table>    
-            </form>
+                    <tr>
+                        <td>
+                            Email : 
+                        </td>
+                        <td>
+                            <input text='email' name='email' value='".$update_admin_row['email']."' class='update-input-view' disabled>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style='vertical-align:top;'>
+                            Profile Image   
+                        </td>
+                        <td>
+                            &nbsp;<img src='../../../upload/".$update_admin_row['profile_img']."' class='profile-photo-update'> 
+                        </td>
+                    </tr>
+                </table>
+            </div>    
+        </form>
 
         ";
 
