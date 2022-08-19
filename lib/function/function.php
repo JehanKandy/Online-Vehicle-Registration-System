@@ -245,10 +245,9 @@
         $update_admin_row = mysqli_fetch_assoc($update_admin_result);
 
         $user_update_form = "
-
-        <form action='' method='POST'>
-            <div class='acc-update'>
-                <table border='0'>
+        <div class='update-admin'>
+            <form action='' method='POST'>
+                <table border='0' class='acc-update-table'>
                     <tr>
                         <td>
                             Username : 
@@ -270,13 +269,12 @@
                             Profile Image   
                         </td>
                         <td>
-                            &nbsp;<img src='../../../upload/".$update_admin_row['profile_img']."' class='profile-photo-update'> 
+                            &nbsp;<img src='../../../upload/".$update_admin_row['profile_img']."' class='profile-photo'> 
                         </td>
                     </tr>
-                </table>
-            </div>    
-        </form>
-
+                </table>  
+            </form>
+        </div>
         ";
 
         echo $user_update_form;
