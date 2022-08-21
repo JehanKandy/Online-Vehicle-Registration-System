@@ -42,10 +42,10 @@
         <div class="grid-item1">
             hi
         </div>
-        <div class="grid-item1">
+        <div class="grid-item2">
             hi
         </div>
-        <div class="grid-item1">
+        <div class="grid-item3">
             hi
         </div>
     </div>
