@@ -9,19 +9,19 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/car1.jpg" alt="First slide">
+      <img class="d-block w-100" src="images/user1.jpg" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
             <p>User Registration System</p>
         </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/car2.jpg" alt="Second slide">
+      <img class="d-block w-100" src="images/car1.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
         <p>Vehicle Registration System</p>
         </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/car3.jpg" alt="Third slide">
+      <img class="d-block w-100" src="images/fuel.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
         <p>fuel Registration System</p>
         </div>
@@ -36,6 +36,8 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+
 
 <div class="contact">
     <div class="contact-content">
