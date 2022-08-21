@@ -611,12 +611,12 @@ for standard iPad screen size
     .system-infor {
         margin-top: 100px;
         margin-bottom: 100px;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 80px;
+        margin-right: 80px;
     }
     .system-infor .grid {
         display: grid;
-        width: 700px;
+        width: 850px;
         height: auto;
         grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: minmax(350px, auto);
