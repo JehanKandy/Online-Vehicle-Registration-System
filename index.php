@@ -40,13 +40,28 @@
 <div class="system-infor">
     <div class="grid">
         <div class="grid-item1">
-            hi
+            <div class="title">
+                User Registration
+            </div>
+            <div class="body">
+                hi
+            </div>
         </div>
         <div class="grid-item2">
-            hi
+            <div class="title">
+                User Registration
+            </div>
+            <div class="body">
+                hi
+            </div>
         </div>
         <div class="grid-item3">
-            hi
+            <div class="title">
+                User Registration
+            </div>
+            <div class="body">
+                hi
+            </div>
         </div>
     </div>
 </div>
