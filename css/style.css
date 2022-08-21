@@ -55,8 +55,14 @@ font-family: 'Teko', sans-serif;
     font-size: 25px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
+}
+
+.system-infor .grid .grid-item1 .body {
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .system-infor .grid .grid-item2 {
