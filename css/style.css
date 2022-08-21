@@ -60,7 +60,7 @@ font-family: 'Teko', sans-serif;
 }
 
 .system-infor .grid .grid-item2 {
-    grid-area: a;
+    grid-area: b;
     border: none;
     border-radius: 15px;
     background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
@@ -74,7 +74,7 @@ font-family: 'Teko', sans-serif;
 }
 
 .system-infor .grid .grid-item3 {
-    grid-area: a;
+    grid-area: c;
     border: none;
     border-radius: 15px;
     background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
