@@ -35,6 +35,30 @@ font-family: 'Teko', sans-serif;
     margin-right: 200px;
 }
 
+.system-infor .grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(350px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a b c";
+}
+
+.system-infor .grid .grid-item {
+    grid-area: a;
+    border: none;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
 .carousel-item {
     width: 100%;
     height: 100%;
