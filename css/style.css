@@ -49,7 +49,7 @@ font-family: 'Teko', sans-serif;
     grid-area: a;
     border: none;
     border-radius: 15px;
-    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/user1.jpg);
     background-size: cover;
     background-position: center;
     font-size: 25px;
@@ -65,17 +65,28 @@ font-family: 'Teko', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
 
+.system-btn {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+
 .system-infor .grid .grid-item2 {
     grid-area: b;
     border: none;
     border-radius: 15px;
-    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car2.jpg);
     background-size: cover;
     background-position: center;
     font-size: 25px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
 }
 
@@ -89,13 +100,13 @@ font-family: 'Teko', sans-serif;
     grid-area: c;
     border: none;
     border-radius: 15px;
-    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/car1.jpg);
+    background: -webkit-linear-gradient(rgba(49, 49, 49, 0.7), rgba(65, 65, 65, 0.7)), url(../images/fuel.jpg);
     background-size: cover;
     background-position: center;
     font-size: 25px;
     color: white;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
 }
 
