@@ -538,6 +538,15 @@ for standard iPad screen size
 */
 
 @media screen and (max-width: 768px) {
+    .system-infor .grid {
+        display: grid;
+        width: 1300px;
+        height: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(350px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a" "b" "c";
+    }
     .home-content {
         color: white;
         text-transform: uppercase;
@@ -599,6 +608,15 @@ for standard iPad screen size
 */
 
 @media screen and (min-width: 1023px) and (max-width: 1024px) {
+    .system-infor .grid {
+        display: grid;
+        width: 1300px;
+        height: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(350px, auto);
+        grid-gap: 1rem;
+        grid-template-areas: "a b c";
+    }
     .gallery .grid {
         display: grid;
         width: 100%;
