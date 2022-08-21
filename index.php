@@ -49,7 +49,7 @@
         </div>
         <div class="grid-item2">
             <div class="title">
-                User Registration
+                Vehicle Registration
             </div>
             <div class="body">
                 hi
@@ -57,7 +57,7 @@
         </div>
         <div class="grid-item3">
             <div class="title">
-                User Registration
+                Fuel Registration
             </div>
             <div class="body">
                 hi
