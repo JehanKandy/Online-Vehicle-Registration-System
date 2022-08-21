@@ -28,6 +28,40 @@ font-family: 'Teko', sans-serif;
 
 */
 
+.carousel-item {
+    width: 100%;
+    height: 80vh;
+}
+
+.card-img {
+    background-size: cover;
+    background-position: center;
+    background-color: rebeccapurple;
+}
+
+.footer {
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/logo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.footer table td h3 {
+    color: rgb(54, 54, 54);
+    font-size: 130%;
+    color: white;
+}
+
+.footer table td h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.footer table td p {
+    color: white;
+}
+
 .login-btn-nav {
     width: 100px;
     height: 45px;
