@@ -11,19 +11,19 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="images/car1.jpg" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
-            <p>JK BOOTSTRAP</p>
+            <p>User Registration System</p>
         </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/car2.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
-
+        <p>Vehicle Registration System</p>
         </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/car3.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
-
+        <p>fuel Registration System</p>
         </div>
     </div>
   </div>
