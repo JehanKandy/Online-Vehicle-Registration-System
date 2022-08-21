@@ -45,6 +45,9 @@
             </div>
             <div class="body">
                 <i class="far fa-check-circle" style="color: green;"></i> &nbsp; 
+
+                <a href="#"><button class="system-btn">More Details</button></a>
+
             </div>
         </div>
         <div class="grid-item2">
