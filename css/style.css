@@ -608,9 +608,15 @@ for standard iPad screen size
 */
 
 @media screen and (min-width: 1023px) and (max-width: 1024px) {
+    .system-infor {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
     .system-infor .grid {
         display: grid;
-        width: 1300px;
+        width: 700px;
         height: auto;
         grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: minmax(350px, auto);
