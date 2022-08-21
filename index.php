@@ -37,7 +37,19 @@
   </a>
 </div>
 
-
+<div class="system-infor">
+    <div class="grid">
+        <div class="grid-item1">
+            hi
+        </div>
+        <div class="grid-item1">
+            hi
+        </div>
+        <div class="grid-item1">
+            hi
+        </div>
+    </div>
+</div>
 
 <div class="contact">
     <div class="contact-content">
