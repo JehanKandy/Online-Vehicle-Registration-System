@@ -59,7 +59,7 @@ font-family: 'Teko', sans-serif;
     text-align: center;
 }
 
-.system-infor .grid .grid-item1 {
+.system-infor .grid .grid-item2 {
     grid-area: a;
     border: none;
     border-radius: 15px;
@@ -73,7 +73,7 @@ font-family: 'Teko', sans-serif;
     text-align: center;
 }
 
-.system-infor .grid .grid-item1 {
+.system-infor .grid .grid-item3 {
     grid-area: a;
     border: none;
     border-radius: 15px;
